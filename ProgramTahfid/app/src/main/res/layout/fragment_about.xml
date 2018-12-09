@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program ini kami susun untuk mempermudah pengguna agar lebih bersemangat dan mudah dalam menghafal Al Quran. Dalam program ini tersedia beberapa fitur yang dapat mempermudah Menghafal Al Quran diantaranya:"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.  Ringkasan keutamaan menghafal Al Quran"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.  Alarm Muroja’ah untuk penghafal Al Quran"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.  Lembar Kontrol untuk penghafal Al Quran"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pada perogram ini, pengembang menyadari terdapat kekurangan yang terdapat pada program ini, maka pengembang mengharapkan penggunakan untuk memerikan keritik dan saran yang membangun untuk kami demi sempurna nya program ini."
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>

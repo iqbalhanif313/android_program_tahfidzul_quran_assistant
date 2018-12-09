@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عَنْ أَبِي هُرَيْرَةَ، قَالَ: قَال  َ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «أَيُحِبُّ أَحَدُكُمْ إِذَا رَجَ إِلَى أَهْلِهِ أَنْ يَجِدَ فِيهِ ثَلَاثَ خَلِفَاتٍ عِظَامٍ سِمَانٍ؟» قُلْنَا: نَعَمْ، قَالَ: «فَثَلَاثُ آيَاتٍ يَقْرَأُ بِهِنَّ أَحَدُكُمْ فِي صَلَاتِهِ، خَيْرٌ لَهُ مِنْ ثَلَاثِ خَلِفَاتٍ عِظَامٍ سِمَانٍ»" 
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:lineSpacingExtra="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="HR: Muslim" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:lineSpacingExtra="1dp"
+        android:text="Apakah salah satu kalian senang apabila dia kembali kekeluarganya dan menjumpai unta yang besar dan gemuk, kami berkata: iya, Nabi bersabda: maka tiga ayat yang dia baca (dengan hafalannya) di dalam sholat nya itu lebih baik baginya dari pada 3 unta yang besar dan gemuk"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:layout_below="@+id/textView2"/>
+
+</RelativeLayout>

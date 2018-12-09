@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:background="@drawable/homepict">
+    	
+	    <Button
+	        android:id="@+id/Masuk_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="121dp"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFF"
+	        android:text="Masuk_btn" />
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/Masuk_btn"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginBottom="95dp"
+	        android:gravity="center"
+	        android:text="SELAMAT DATANG DI PROGRAM TAHFID AL QURAN"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FFFFFF"
+	        android:textStyle="bold" />
+
+    	<Button
+        	android:id="@+id/keutamaan"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignTop="@+id/Masuk_btn"
+        	android:layout_centerHorizontal="true"
+        	android:layout_marginTop="59dp"
+        	android:text="Keutamaan Menghafal Al Quran" 
+        	android:textColor="#ffffff"/>
+
+    	<Button
+        	android:id="@+id/alarm_murojaah"
+       		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_above="@+id/Masuk_btn"
+        	android:layout_centerHorizontal="true"
+        	android:layout_marginBottom="20dp"
+        	android:text="Alarm Murojaah" 
+        	android:textColor="#ffffff"/>
+    
+</RelativeLayout>

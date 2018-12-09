@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:text="عَنْ أَبِي مُوسَى الأَشْعَرِيِّ، عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: &quot; مَثَلُ الَّذِي يَقْرَأُ القُرْآنَ: كَالأُتْرُجَّةِ طَعْمُهَا طَيِّبٌ، وَرِيحُهَا طَيِّبٌ، وَالَّذِي لاَ يَقْرَأُ  القُرْآنَ: كَالتَّمْرَةِ طَعْمُهَا طَيِّبٌ وَلاَ رِيحَ لَهَا"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="HR: Bukhary" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="center"
+        android:lineSpacingExtra="1dp"
+        android:text="Nabi bersabda: gambarannya orang yang membaca (menghafal ) Al Quran itu sebagaimana jeruk yang enak rasanya dan wangi baunya. Dan adapun gambaranya orang yang tidak menghafal Al Quran itu sebagaimana kurma yang enak rasanya tapi tidak ada bau harum baginya....(Al Hadith)."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

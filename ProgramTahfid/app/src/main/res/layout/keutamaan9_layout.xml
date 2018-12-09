@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:text="عَنْ أَبِي مُوسَى الْأَشْعَرِيِّ، قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «إِنَّ مِنْ إِجْلَالِ [ص:262] اللَّهِ إِكْرَامَ ذِي الشَّيْبَةِ الْمُسْلِمِ، وَحَامِلِ الْقُرْآنِ غَيْرِ الْغَالِي فِيهِ وَالْجَافِي عَنْهُ، وَإِكْرَامَ ذِي السُّلْطَانِ الْمُقْسِطِ  "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="HR: Abu Daud" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:text="artinya"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
